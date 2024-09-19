@@ -3,6 +3,7 @@
 // import HelloWorld from './components/HelloWorld.vue'
  import Headerk from './components/Headerk.vue'
   import MainCard from './components/MainCard.vue'
+  import Uslugi from './components/Uslugi.vue';
 </script>
 
 <template>
@@ -18,6 +19,7 @@
 </header>
 <main>
 <MainCard/>
+<Uslugi/>
 </main>
 </div>
 
