@@ -56,7 +56,7 @@ img{
   border-radius: 25px;
   overflow: hidden;
   position: relative; /* Чтобы псевдо-элемент был относительно родительского элемента */
-
+  border: none;
 }
 
 .card::before {

@@ -24,20 +24,54 @@
       </div>
       <img class="ochkoimg" src="/src/assets/ochko.svg" alt="Ochko Image" />
     </div>
-    <div class="card col-4">
-      <div class="text-overlay">Текст для пустой карточки</div>
+    <div class="card line col-4">
+      <div class="text-overlay">
+        <div class="bigtxt"><span> подключение</span><br> телефонии</div>
+        <div class="minitxt">
+          подключение оборудования телефонной<br />
+          связи, настройка правил распределения<br />
+          звонков, правил переадресации
+        </div>
+      </div>
       <img class="lineimg" src="/src/assets/line.svg" alt="Ochko Image" />
     </div>
+  </div>
+  <div class="row custom_container_buttom"> 
+    <div class="card col-9"></div>
+    <div class="card col-3"></div>
   </div>
 </template>
 
 <script></script>
 
 <style scoped>
+.custom_container_buttom{
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 0 6em 0 4em;
+  gap: 1em;
+}
+span{
+  background:#DDE2FF ;
+
+
+
+}
+.line {
+  background: #f4f4f4;
+  border: none;
+}
+
+.lineimg {
+
+  margin-bottom:14em ;
+  margin-right: 5em;
+  height: 23%;
+}
 .bigtxt {
   font-size: 44px;
   line-height: 110%;
-  padding-bottom: 0.4em;
+  padding-bottom: 0.4em; 
 }
 .minitxt {
   font-size: 18px;
