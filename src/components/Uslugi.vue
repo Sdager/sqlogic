@@ -26,7 +26,10 @@
     </div>
     <div class="card line col-4">
       <div class="text-overlay">
-        <div class="bigtxt"><span> подключение</span><br> телефонии</div>
+        <div class="bigtxt">
+          <span> подключение</span><br />
+          телефонии
+        </div>
         <div class="minitxt">
           подключение оборудования телефонной<br />
           связи, настройка правил распределения<br />
@@ -36,26 +39,84 @@
       <img class="lineimg" src="/src/assets/line.svg" alt="Ochko Image" />
     </div>
   </div>
-  <div class="row custom_container_buttom"> 
-    <div class="card col-9"></div>
-    <div class="card col-3"></div>
+  <div class="row custom_container_buttom">
+    <div class="card col-9">
+      <div class="up_text">
+        обслуживание <br />
+        <strong>локальной сети </strong>
+      </div>
+      <span></span>
+      <div class="buttom_text">
+        полное сопровождение вашей локальной<br> вычислительной сети, мониторинг,<br>
+        конфигурация и установка оборудования
+      </div>
+    </div>
+    <div class="card knopki col-3"> <div class="text_overlay"><div class="up_text1"><strong>поддержка \ support <br>
+      пользователей</strong></div>
+    <div class="buttom_text">консультирование пользователей по всем вопросам</div>
+</div>
+<img class="knopkiimg" src="/src/assets/knopki.svg" alt="">
+    </div>
   </div>
 </template>
 
 <script></script>
 
 <style scoped>
-.custom_container_buttom{
+.up_text1{
+  color: white;
+  font-size: 24px;
+}
+.knopki {
+  position: relative; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+  height: 100%;
+  background-color: #000000;
+  padding: 20px;
+}
+
+.knopkiimg {
+  position: absolute;
+  bottom: 0; 
+  left: 50%; 
+  transform: translateX(-50%); 
+  width: 80%; 
+}
+.col-3{
+  border: none;
+  background-color:#000000 ;
+}
+.up_text{
+  font-size: 24px;
+}
+.buttom_text{
+  font-size: 16px;
+  display: flex;
+  
+  text-align: center;
+  
+}
+.col-9{
+  gap: 1em;
+  border: none;
+  background-color:#F4F4F4 ;
+}
+span {
+  border-left: 1px solid #1b1b1b;
+  height: 100px;
+}
+.custom_container_buttom {
   display: flex;
   flex-wrap: nowrap;
-  margin: 0 6em 0 4em;
+  margin: 0.6em 5em 1em 4em;
   gap: 1em;
+  height: auto; 
 }
-span{
-  background:#DDE2FF ;
-
-
-
+span {
+  background: #dde2ff;
 }
 .line {
   background: #f4f4f4;
@@ -63,15 +124,14 @@ span{
 }
 
 .lineimg {
-
-  margin-bottom:14em ;
+  margin-bottom: 14em;
   margin-right: 5em;
   height: 23%;
 }
 .bigtxt {
   font-size: 44px;
   line-height: 110%;
-  padding-bottom: 0.4em; 
+  padding-bottom: 0.4em;
 }
 .minitxt {
   font-size: 18px;
@@ -94,7 +154,6 @@ span{
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  margin-bottom: 100px;
 }
 
 .sopli {

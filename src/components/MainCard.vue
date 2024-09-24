@@ -60,26 +60,26 @@ img{
 }
 
 .card::before {
-  content: ''; /* Пустое содержимое для псевдо-элемента */
+  content: ''; 
   position: absolute;
-  top: 75px; /* Отступ сверху */
-  bottom: 75px; /* Отступ снизу */
-  left: 50%; /* Положение по горизонтали, можно настроить для точного выравнивания */
-  transform: translateX(-50%); /* Центрирование по горизонтали */
-  width: 1px; /* Ширина линии */
-  background-color: rgb(129, 129, 129); /* Цвет линии */
+  top: 75px; 
+  bottom: 75px; 
+  left: 50%; 
+  transform: translateX(-50%); 
+  width: 1px;
+  background-color: rgb(129, 129, 129); 
 }
 
 
 .left {
   display: flex;
   flex-direction: column;
-  align-items: flex-end; /* Выравнивание контента по правому краю */
+  align-items: flex-end; 
   gap: 2em;
  
   padding-right: 1em;
-  min-width: 300px; /* Минимальная ширина блока */
-  max-width: 100%; /* Максимальная ширина для предотвращения выезда за пределы */
+  min-width: 300px; 
+  max-width: 100%;
   padding-right:2em ;
 }
 
