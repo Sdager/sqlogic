@@ -4,6 +4,7 @@
  import Headerk from './components/Headerk.vue'
   import MainCard from './components/MainCard.vue'
   import Uslugi from './components/Uslugi.vue';
+  import WhySQ from './components/WhySQ.vue';
 </script>
 
 <template>
@@ -20,14 +21,20 @@
 <main>
 <MainCard/>
 <Uslugi/>
+<WhySQ/>
 </main>
 </div>
 
 </template>
 
 <style scoped>
+*{
+
+  overflow: hidden;
+}
 template {  
- 
+  
+
   padding: 0px;
   margin: 0px;
  

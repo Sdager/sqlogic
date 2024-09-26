@@ -53,7 +53,7 @@
     </div>
     <div class="card knopki col-3"> <div class="text_overlay"><div class="up_text1"><strong>поддержка \ support <br>
       пользователей</strong></div>
-    <div class="buttom_text">консультирование пользователей по всем вопросам</div>
+    <div class="buttom_text1">консультирование<br> пользователей по всем<br> вопросам</div>
 </div>
 <img class="knopkiimg" src="/src/assets/knopki.svg" alt="">
     </div>
@@ -66,6 +66,14 @@
 .up_text1{
   color: white;
   font-size: 24px;
+  text-align: center;
+
+}
+.buttom_text1{
+  text-align: center;
+color: #999898;
+margin-bottom: 8em;
+font-size: 16px;
 }
 .knopki {
   position: relative; 
@@ -102,7 +110,7 @@
 .col-9{
   gap: 1em;
   border: none;
-  background-color:#F4F4F4 ;
+  background-color:#dad7d7 ;
 }
 span {
   border-left: 1px solid #1b1b1b;
@@ -119,7 +127,7 @@ span {
   background: #dde2ff;
 }
 .line {
-  background: #f4f4f4;
+  background: #dad7d7 ;
   border: none;
 }
 
@@ -162,7 +170,7 @@ span {
 }
 
 .ochko {
-  background: #f4f4f4;
+  background: #dad7d7 ;
   border: none;
 }
 

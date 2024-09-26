@@ -14,6 +14,7 @@
 <style scoped>
 *{
   font-size: 16px;
+  
 }
 .custom_container {
   padding: 0px;
