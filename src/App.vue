@@ -5,6 +5,7 @@
   import MainCard from './components/MainCard.vue'
   import Uslugi from './components/Uslugi.vue';
   import WhySQ from './components/WhySQ.vue';
+  import Working from './components/Working.vue';
 </script>
 
 <template>
@@ -22,7 +23,9 @@
 <MainCard/>
 <Uslugi/>
 <WhySQ/>
+<Working/>
 </main>
+
 </div>
 
 </template>

@@ -72,7 +72,7 @@
 .buttom_text1{
   text-align: center;
 color: #999898;
-margin-bottom: 8em;
+margin-bottom: 10em;
 font-size: 16px;
 }
 .knopki {
