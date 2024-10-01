@@ -8,11 +8,12 @@
     <div class="card row">
       
         <div class="left col-6">
-          <div class="up_text">sqlogic — это <br> эффективный <br> аутсорсинг</div>
+          <div class="up_text">SQLogic — это <br> эффективный <br> аутсорсинг</div>
+          <div class="txt">
           <div class="bottom_text">IT-отдел по цене одного <br> специалиста</div>
          <button>Связаться с нами!</button>
         </div>
-       
+      </div>       
 
         <div class="col-6 ">
             <div class="time"></div>
@@ -49,8 +50,8 @@ img{
   align-items: center;
   background-color: #c9d1ff;
   height: 53vh;
-  margin-left: 4em;
-  margin-right: 4em;
+  margin-left: 9em;
+  margin-right: 9em;
   margin-top: 1em;
   user-select: none;
   border-radius: 25px;
@@ -86,7 +87,7 @@ img{
 .col-6 {
   display: flex;
   flex-direction: column;
-  justify-content: center; /* Центрирование контента по вертикали */
+  justify-content: center; 
   height: 100%;
 }
 
@@ -100,12 +101,12 @@ img{
 
 .up_text {
     line-height: 100%;
-    font-size: 6vw; /* Шрифт будет изменяться в зависимости от ширины экрана */
+    font-size: 6vw; 
     font-weight: bold;
 }
 
 .bottom_text {
-    font-size: 3vw; /* Шрифт также будет изменяться */
+    font-size: 3vw; 
     padding-right: 2.1em;
 }
 
@@ -130,19 +131,18 @@ ol {
 /* Медиазапрос для широких экранов (больше 1200px) */
 @media (min-width: 1200px) {
   .up_text {
-    font-size: 64px; /* Фиксированный размер текста для широких экранов */
+    font-size: 64px; 
   }
 
   .bottom_text {
-    font-size: 28px; /* Фиксированный размер для нижнего текста */
+    font-size: 28px; 
   }
   button{
     width: 50%;
 
   }
   .left{
-    gap: 3
-em;
+    gap: 3em;
   }
 }
 

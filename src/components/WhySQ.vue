@@ -1,7 +1,7 @@
 <template>
   <div class="con">
     <div class="up">
-      <h1><strong>Почему SQlogic?</strong></h1>
+      <h1><strong>Почему SQLogic?</strong></h1>
       <div class="buttom_text">
         мы предлагаем комплексное сопровождение
         инфраструктуры вашего бизнеса.
@@ -72,12 +72,15 @@ width: 15%;
 .card {
   border-radius: 25px;
   height: 18em;
-  width: 27em;
+  width: 25em;
 }
 .con {
-  background-color: #dad7d7;
+  background-color: #c9d1ff;
   height: 60vh;
-  width: 100vw;
+  margin-left: 4em;
+   margin-right: 4em;
   padding: 5em;
+  border-radius: 35px;
+  
 }
 </style>

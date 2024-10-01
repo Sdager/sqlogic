@@ -18,7 +18,8 @@
 }
 .custom_container {
   padding: 0px;
-  margin: 0px;
+margin-left: 6em;
+margin-right:6em ;
   user-select: none; 
   
 
@@ -31,6 +32,7 @@
 }
 img{
   cursor: pointer;
+  height: 100%;
 }
 ol{
   cursor: pointer;
