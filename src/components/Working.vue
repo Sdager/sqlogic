@@ -26,8 +26,8 @@ gap:3em;
 }
 .line{
     border-bottom: 1px solid grey;
-    margin-left: 4em;
-    margin-right: 4em;
+    margin-left: 9em;
+    margin-right: 9em;
 }
 .up{
     border-left: 1px solid grey ;
@@ -46,8 +46,8 @@ align-items: center;
 }
 
 .custom_container{
-    margin-left: 4em;
-    margin-right: 4em;
+    margin-left: 9em;
+    margin-right: 9em;
     align-items: center;
    display: flex;
    justify-content: center;

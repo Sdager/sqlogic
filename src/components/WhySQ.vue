@@ -72,13 +72,13 @@ width: 15%;
 .card {
   border-radius: 25px;
   height: 18em;
-  width: 25em;
+  width: 23em;
 }
 .con {
   background-color: #c9d1ff;
   height: 60vh;
-  margin-left: 4em;
-   margin-right: 4em;
+  margin-left: 8.7em;
+   margin-right: 8.7em;
   padding: 5em;
   border-radius: 35px;
   

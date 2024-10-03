@@ -119,7 +119,7 @@ span {
 .custom_container_buttom {
   display: flex;
   flex-wrap: nowrap;
-  margin: 0.6em 5em 1em 4em;
+  margin: 0.6em 10em 1em 9em;
   gap: 1em;
   height: auto; 
 }
@@ -148,7 +148,7 @@ span {
 .custom_container {
   display: flex;
   flex-wrap: nowrap;
-  margin: 4em 6em 0 4em;
+  margin: 4em 11em 0 8.9em;
   gap: 1em;
 }
 
