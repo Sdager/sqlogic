@@ -169,7 +169,7 @@ ol {
   }
   .card{
     height: 40vh;
-
+    margin-right:7.5em ;
   }
   img{
     gap: 2em;
@@ -195,8 +195,8 @@ font-size: 13px;
     display: flex  !important;
     flex-direction: column; /* Блоки друг под другом на маленьких экранах */
     height: auto; /* Автоматическая высота */
-    margin-left: 1em;
-    margin-right: 1em;
+    margin-left: 9em;
+    margin-right: 6.2em;
 gap: 2em;
   }
 
@@ -254,40 +254,8 @@ ol{
 
 }
 
-@media (max-width: 460px) {
-  .up_text {
-    font-size: 38px; /* Для маленьких экранов увеличиваем масштаб */
-  }
 
-  .bottom_text {
-    font-size: 4vw;
-  }
-
-  button {
-    width: 100%; /* Увеличиваем кнопку на маленьких экранах */
-    font-size: 12px; /* Уменьшаем размер текста на кнопке */
-  }
-  ol{
-  gap: 1.2em;
-  width: 70%;
-
-}
-.icons{
-  gap: 1.5em;
-  padding-top: 10px;
- margin-left:4em ;
-  width: 20px;
-}
-.bot{
-text-align: start;
-width: 100%;
-display: flex;
-flex-direction: center;
-}
-.plusi{margin: 0;}
-}
-
-@media (max-width: 480px) {
+@media (max-width: 580px) {
   .up_text {
     font-size: 38px; /* Для маленьких экранов увеличиваем масштаб */
   }
@@ -310,6 +278,10 @@ flex-direction: center;
   padding-top: 10px;
  margin-left:0em ;
   width: 20px;
+}
+.card{
+  margin-left:1em ;
+  margin-right: 1em;
 }
 .bot{
 text-align: start;

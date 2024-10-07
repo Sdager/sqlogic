@@ -40,7 +40,7 @@
     </div>
   </div>
   <div class="row custom_container_buttom">
-    <div class="card col-9">
+    <div class="card polosa col-9">
       <div class="up_text">
         обслуживание <br />
         <strong>локальной сети </strong>
@@ -51,13 +51,14 @@
         конфигурация и установка оборудования
       </div>
     </div>
-    <div class="card knopki col-3"> <div class="text_overlay"><div class="up_text1"><strong>поддержка \ support <br>
+    <div class="card knopki col-3 "> <div class="text_overlay"><div class="up_text1"><strong>поддержка \ support <br>
       пользователей</strong></div>
     <div class="buttom_text1">консультирование<br> пользователей по всем<br> вопросам</div>
 </div>
 <img class="knopkiimg" src="/src/assets/knopki.svg" alt="">
     </div>
   </div>
+
 </template>
 
 <script></script>
@@ -207,4 +208,130 @@ span {
     font-size: 1em;
   }
 }
+
+@media (max-width: 1800px){
+.card{
+  height: 35vh;
+}
+  .bigtxt{
+    font-size: 30px;
+  }
+  .minitxt{
+    font-size: 15px;
+  }
+}
+@media (max-width: 1350px){
+  .custom_container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2em;
+    margin: 3em 4em 1em 9em;
+  }
+  .card{
+    width: 45%;
+   
+  }
+  .custom_container_buttom{
+    display: flex;
+    flex-direction: row;
+    margin-right: 11.2em;
+ 
+  }
+  .polosa{
+    width: 56%;
+  }
+  .knopki{
+    width: 49%;
+  }
+  .knopkiimg{
+    height: 13em;
+  }
+  .line{
+    width: 95%;
+  }
+  
+}
+@media (max-width: 1200px){
+ 
+  .knopki{
+    width: 50%;
+   
+  }
+
+}
+@media (max-width: 1000px){
+ 
+  .knopki{
+   width: 55%;
+  
+ }
+.polosa{
+  width: 55%;
+}
+}
+
+@media (max-width: 890px){
+  .card{
+    width: 100%;
+    height: 25em;
+  }
+  .custom_container{
+    margin-right: 6em;
+  }
+  .custom_container_buttom{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0.6em 6em 1em 9em;
+}
+.polosa{
+  width: 100%;
+}
+.knopki{
+  width: 100%;
+
+}
+.sopliimg{
+  height: 100%;
+}
+.lineimg{
+  height: 19%;
+}
+
+}
+
+
+@media (max-width: 550px){
+  .bigtxt{
+   font-size: 20px;
+  }
+  .minitxt{
+    font-size: 14px;
+  }
+  .card{
+    width: 100%;
+    height: 25em;
+    
+  }
+  .sopliimg{
+    width: 18em;
+  }
+  .ochkoimg{
+  width: 18em;
+  }
+  .custom_container{
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+  .custom_container_buttom{
+    margin-left: 1em;
+    margin-right: 1em;
+  
+  }
+
+
+}
+
+
 </style>
