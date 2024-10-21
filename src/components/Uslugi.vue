@@ -74,7 +74,7 @@
   text-align: center;
 color: #999898;
 margin-bottom: 10em;
-font-size: 16px;
+font-size: 19px;
 }
 .knopki {
   position: relative; 
@@ -102,7 +102,7 @@ font-size: 16px;
   font-size: 24px;
 }
 .buttom_text{
-  font-size: 16px;
+  font-size: 19px;
   display: flex;
   
   text-align: center;
@@ -143,7 +143,7 @@ span {
   padding-bottom: 0.4em;
 }
 .minitxt {
-  font-size: 18px;
+  font-size: 19px;
   color: #999898;
 }
 .custom_container {
@@ -218,6 +218,14 @@ span {
   }
   .minitxt{
     font-size: 15px;
+  }
+  .buttom_text1{
+    font-size: 15px;
+
+  }
+  .buttom_text{
+    font-size: 15px;
+    
   }
 }
 @media (max-width: 1350px){
@@ -308,6 +316,14 @@ span {
   }
   .minitxt{
     font-size: 14px;
+  }
+  .buttom_text{
+    font-size: 14px;
+    
+  }
+  .buttom_text1{
+    font-size: 14px;
+    
   }
   .card{
     width: 100%;

@@ -133,12 +133,29 @@ ol {
   .up_text {
     font-size: 64px; 
   }
-
+img{
+  height: 4em;
+  
+}
+.icons{
+  margin-left: 2em;
+  gap: 4.5em;
+  width: 5em;
+}
+li{
+  font-size: 18px;
+}
+ol{
+  gap: 4.9em;
+  padding-top: 0.5em;
+}
   .bottom_text {
     font-size: 28px; 
   }
   button{
     width: 100%;
+    height: 3em;
+    font-size:20px ;
 
   }
   .left{

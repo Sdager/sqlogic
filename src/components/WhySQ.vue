@@ -53,9 +53,18 @@
 </template>
 
 <style scoped>
+h4{
+  font-size: 28px;
+}
+.mini_text{
+  font-size: 20px;
+}
 .card{
     display: flex;
     gap: 1.2em;
+    border-radius: 25px;
+  height: 23em;
+  width: 30em;
     padding: 3.5em;
 }
 img {
@@ -64,23 +73,256 @@ width: 15%;
 }
 .buttom_text {
   padding-bottom: 1.5em;
+  font-size: 22px ;
 }
 .cards {
-  gap: 1em;
+  gap: 4em;
   flex-wrap: nowrap;
+  
+  margin-right: 0em;
 }
-.card {
-  border-radius: 25px;
-  height: 18em;
-  width: 23em;
-}
+
 .con {
   background-color: #c9d1ff;
-  height: 60vh;
+  height: 55vh;
   margin-left: 8.7em;
    margin-right: 8.7em;
   padding: 5em;
   border-radius: 35px;
   
+}
+@media (max-width: 2500px) {
+  .card{
+
+    gap: 1em;
+    border-radius: 25px;
+height: 20em;
+ width: 24%;
+    padding: 2em;
+}
+
+h4{
+  font-size: 26px;
+}
+.mini_text{
+  font-size: 19px;
+}
+.cards {
+  gap: 2em;
+  flex-wrap: nowrap;
+  
+  margin-right: 0em;
+  
+}
+.con{
+  height: 40em;
+}
+}
+@media (max-width: 1700px) {
+  .card{
+
+    gap: 1em;
+    border-radius: 25px;
+  max-height: 32%;
+ width: 24%;
+    padding: 2em;
+}
+h4{
+  font-size: 24px;
+}
+.mini_text{
+  font-size: 17px;
+}
+.cards {
+  gap: 2em;
+  flex-wrap: nowrap;
+  
+  margin-right: 0em;
+  
+}
+.con{
+  height: 40em;
+}
+}
+
+@media (max-width: 1500px) {
+  .card{
+
+    gap: 1em;
+    border-radius: 25px;
+  max-height: 32%;
+ width: 47%;
+ padding: 2em;
+}
+h4{
+  font-size: 28px;
+}
+.mini_text{
+  font-size: 20px;
+}
+.cards {
+
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+
+  margin-right: 0em;
+  
+}.con{
+  height: 67em;
+  padding: 8em; margin-left: 8.1em;
+  margin-right: 7.6em;
+}
+}
+@media (max-width: 1200px) {
+  .buttom_text{
+    font-size: 20px;
+  }
+  .card{
+
+    gap: 1em;
+    border-radius: 25px;
+  max-height: 32%;
+ width: 88%;
+ padding: 2em;
+
+
+}
+h4{
+  font-size: 28px;
+}
+.mini_text{
+  font-size: 21px;
+}
+.cards {
+
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+
+  margin-right: 0em;
+  
+}.con{
+  height: 108em;
+  padding: 8em; margin-left: 8.8em;
+  margin-right: 6.8em;
+}
+}
+@media (max-width: 1000px) {
+  .buttom_text{
+    font-size: 18px;
+  }
+  .card{
+
+    gap: 1em;
+    border-radius: 25px;
+  max-height: 32%;
+ width: 88%;
+ padding: 2em;
+
+
+}
+h4{
+  font-size: 25px;
+}
+.mini_text{
+  font-size: 18px;
+}
+.cards {
+
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+
+  margin-right: 0em;
+  
+}.con{
+  height: 108em;
+  padding: 3em; margin-left: 8.8em;
+  margin-right: 6.2em;
+}
+}
+
+@media (max-width: 700px) {
+  .buttom_text{
+    font-size: 18px;
+  }
+  .card{
+
+    gap: 1em;
+    border-radius: 25px;
+  max-height: 32%;
+ width: 100%;
+ padding: 2em;
+
+
+}
+h4{
+  font-size: 25px;
+}
+.mini_text{
+  font-size: 18px;
+}
+.cards {
+
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+
+  margin-right: 0em;
+  
+}
+.con {
+  background-color: #c9d1ff;
+
+  margin-left: 9em;
+   margin-right: 6em;
+
+  border-radius: 35px;
+  height: 108em;
+  padding: 2em;
+}
+}@media (max-width: 600px) {
+  .buttom_text{
+    font-size: 18px;
+  }
+  h1{
+    font-size: 22px;
+  }
+  .card{
+
+    gap: 1em;
+    border-radius: 25px;
+  max-height: 17em;
+ width: 100%;
+ padding: 2em;
+
+
+}
+h4{
+  font-size: 22px;
+}
+.mini_text{
+  font-size: 17px;
+}
+.cards {
+
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+
+  margin-right: 0em;
+  
+}
+.con {
+  background-color: #c9d1ff;
+
+  margin-left: 1em;
+   margin-right: 1em;
+
+  border-radius: 35px;
+  height: 88em;
+  padding: 2em;
+}
 }
 </style>
