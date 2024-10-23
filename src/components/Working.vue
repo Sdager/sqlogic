@@ -54,4 +54,33 @@ align-items: center;
     text-align: center;
 }
 
+@media (max-width: 1200px) {
+.custom_container{
+    flex-wrap: wrap;
+}
+img{
+    
+    width: 7.5em;
+}
+.custom_container{
+    margin-right: 7em;
+
+}
+
+}
+@media (max-width: 1000px) {
+.custom_container{
+    flex-wrap: wrap;
+}
+.bottom{
+    
+    width: 20em;
+}
+.custom_container{
+    margin-right: 6.7em;
+
+}
+
+
+}
 </style>
