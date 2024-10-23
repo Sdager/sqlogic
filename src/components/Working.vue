@@ -1,14 +1,14 @@
 <template><div class="con">
     <div class="custom_container row" >
-        <div class="col-3 up"><div class="logo"><img src="/src/assets/company/hs.svg" alt=""></div></div>
-        <div class="col-3 up "><div class="logo"><img src="/src/assets/company/rddm.svg" alt=""></div></div>
+        <div class="col-3  up"><div class="logo"><img src="/src/assets/company/hs.svg" alt=""></div></div>
+        <div class="col-3  up "><div class="logo"><img src="/src/assets/company/rddm.svg" alt=""></div></div>
         <div class="col-3 up "><div class="logo"><img src="/src/assets/company/ros.svg" alt=""></div></div>
-        <div class="col-3 up "><div class="logo"><img src="/src//assets/company/avc.svg" alt=""></div></div>
+        <div class="col-3  up "><div class="logo"><img src="/src//assets/company/avc.svg" alt=""></div></div>
     </div>  <div class="line"></div> <div class="custom_container row" >
-        <div class="col-3 bottom"> <div class="logo"><img src="/src/assets/company/bchp.svg" alt=""></div></div>
-        <div class="col-3 bottom"><div class="logo"><img src="/src/assets/company/rosmol.svg" alt=""></div></div>
-        <div class="col-3 bottom"><div class="logo"><img src="/src/assets/company/peremena.svg" alt=""></div></div>
-        <div class="col-3 bottom"><div class="logo"><img src="/src/assets/company/cemak.svg" alt=""></div></div>
+        <div class="col-3  bottom"> <div class="logo"><img src="/src/assets/company/bchp.svg" alt=""></div></div>
+        <div class="col-3   bottom"><div class="logo"><img src="/src/assets/company/rosmol.svg" alt=""></div></div>
+        <div class="col-3   bottom"><div class="logo"><img src="/src/assets/company/peremena.svg" alt=""></div></div>
+        <div class="col-3  bottom"><div class="logo"><img src="/src/assets/company/cemak.svg" alt=""></div></div>
     </div>
 </div>
 </template>
@@ -53,4 +53,5 @@ align-items: center;
    justify-content: center;
     text-align: center;
 }
+
 </style>
