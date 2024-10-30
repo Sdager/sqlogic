@@ -158,26 +158,19 @@ ol {
 
 /* Медиазапрос для широких экранов (больше 1200px) */
 @media (min-width: 1500px) {
+  .card{
+height: 40em;
+  }
   .up_text {
-    font-size: 64px;
+    font-size: 54px;
   }
   img {
-    height: 4em;
+    height: 3em;
   }
-  .icons {
-    margin-left: 2em;
-    gap: 4.5em;
-    width: 5em;
-  }
-  li {
-    font-size: 18px;
-  }
-  ol {
-    gap: 4.9em;
-    padding-top: 0.5em;
-  }
+ 
+
   .bottom_text {
-    font-size: 28px;
+    font-size: 24px;
   }
   button {
     width: 100%;
@@ -186,6 +179,9 @@ ol {
   }
   .left {
     gap: 3em;
+  }
+  img{
+    height: 40px;
   }
 }
 @media (max-width: 1500px) {
@@ -196,7 +192,11 @@ ol {
     font-size: 20px;
   }
   .card {
-    height: 50vh;
+    height: 28em;
+  }
+  img {
+    gap: 2em;
+  
   }
 }
 
@@ -208,7 +208,7 @@ ol {
     font-size: 13px;
   }
   .card {
-    height: 40vh;
+    height: 40em;
     margin-right: 7.5em;
   }
   img {

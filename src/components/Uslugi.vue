@@ -228,6 +228,12 @@ span {
     
   }
 }
+@media (max-height:900px) {
+  .card{
+    height: 55vh;
+  }
+  
+}
 @media (max-width: 1350px){
   .custom_container{
     display: flex;
@@ -238,6 +244,7 @@ span {
   }
   .card{
     width: 45%;
+   
    
   }
   .custom_container_buttom{
